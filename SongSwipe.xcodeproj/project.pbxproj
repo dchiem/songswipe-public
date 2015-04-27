@@ -15,6 +15,13 @@
 		29A1D1B81AEEB69D00E31A0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A1D1B71AEEB69D00E31A0C /* Images.xcassets */; };
 		29A1D1BB1AEEB69D00E31A0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A1D1B91AEEB69D00E31A0C /* LaunchScreen.xib */; };
 		29A1D1C71AEEB69D00E31A0C /* SongSwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A1D1C61AEEB69D00E31A0C /* SongSwipeTests.m */; };
+		29A1D1DF1AEEBF8D00E31A0C /* Rdio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1D01AEEBF3100E31A0C /* Rdio.framework */; };
+		29A1D1E01AEEBFAC00E31A0C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1DC1AEEBF6A00E31A0C /* SystemConfiguration.framework */; };
+		29A1D1E11AEEBFB400E31A0C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1DA1AEEBF6300E31A0C /* Security.framework */; };
+		29A1D1E21AEEBFBA00E31A0C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1D81AEEBF5D00E31A0C /* CoreMedia.framework */; };
+		29A1D1E31AEEBFBF00E31A0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1D61AEEBF5700E31A0C /* CoreGraphics.framework */; };
+		29A1D1E41AEEBFC500E31A0C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1D41AEEBF5100E31A0C /* CFNetwork.framework */; };
+		29A1D1E51AEEBFCA00E31A0C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A1D1D21AEEBF4A00E31A0C /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,13 @@
 		29A1D1C01AEEB69D00E31A0C /* SongSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A1D1C51AEEB69D00E31A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A1D1C61AEEB69D00E31A0C /* SongSwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongSwipeTests.m; sourceTree = "<group>"; };
+		29A1D1D01AEEBF3100E31A0C /* Rdio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rdio.framework; path = "../../Downloads/rdio-ios-2.1.4/Rdio.framework"; sourceTree = "<group>"; };
+		29A1D1D21AEEBF4A00E31A0C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		29A1D1D41AEEBF5100E31A0C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		29A1D1D61AEEBF5700E31A0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29A1D1D81AEEBF5D00E31A0C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		29A1D1DA1AEEBF6300E31A0C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		29A1D1DC1AEEBF6A00E31A0C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A1D1E51AEEBFCA00E31A0C /* AudioToolbox.framework in Frameworks */,
+				29A1D1E41AEEBFC500E31A0C /* CFNetwork.framework in Frameworks */,
+				29A1D1E31AEEBFBF00E31A0C /* CoreGraphics.framework in Frameworks */,
+				29A1D1E21AEEBFBA00E31A0C /* CoreMedia.framework in Frameworks */,
+				29A1D1E11AEEBFB400E31A0C /* Security.framework in Frameworks */,
+				29A1D1E01AEEBFAC00E31A0C /* SystemConfiguration.framework in Frameworks */,
+				29A1D1DF1AEEBF8D00E31A0C /* Rdio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,7 @@
 				29A1D1A61AEEB69D00E31A0C /* SongSwipe */,
 				29A1D1C31AEEB69D00E31A0C /* SongSwipeTests */,
 				29A1D1A51AEEB69D00E31A0C /* Products */,
+				29A1D1DE1AEEBF7B00E31A0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +142,20 @@
 				29A1D1C51AEEB69D00E31A0C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29A1D1DE1AEEBF7B00E31A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A1D1DC1AEEBF6A00E31A0C /* SystemConfiguration.framework */,
+				29A1D1DA1AEEBF6300E31A0C /* Security.framework */,
+				29A1D1D81AEEBF5D00E31A0C /* CoreMedia.framework */,
+				29A1D1D61AEEBF5700E31A0C /* CoreGraphics.framework */,
+				29A1D1D41AEEBF5100E31A0C /* CFNetwork.framework */,
+				29A1D1D21AEEBF4A00E31A0C /* AudioToolbox.framework */,
+				29A1D1D01AEEBF3100E31A0C /* Rdio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,8 +387,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JB/Downloads/rdio-ios-2.1.4",
+				);
 				INFOPLIST_FILE = SongSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,8 +405,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/JB/Downloads/rdio-ios-2.1.4",
+				);
 				INFOPLIST_FILE = SongSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
